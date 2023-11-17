@@ -613,6 +613,7 @@ hr{
 }
 ::placeholder{
     color: var(--default-color);
+    opacity: 0.5;
 }
 .input-one{
     width: 657px;
@@ -623,6 +624,7 @@ hr{
     outline: none;
     font-size: 16px;
     padding-left: 27px;
+    color: var(--default-color);
 }
 .input-two{
     margin-top: 20px;
@@ -634,6 +636,7 @@ hr{
     outline: none;
     font-size: 16px;
     padding-left: 27px;
+    color: var(--default-color);
 }
 .input-three{
     margin-top: 20px;
@@ -645,6 +648,7 @@ hr{
     outline: none;
     font-size: 16px;
     padding-left: 27px;
+    color: var(--default-color);
 }
 .input-four{
     margin-top: 20px;
@@ -657,6 +661,7 @@ hr{
     outline: none;
     font-size: 16px;
     padding-left: 27px;
+    color: var(--default-color);
 }
 .input-five{
     margin-top: 20px;
@@ -669,6 +674,7 @@ hr{
     font-size: 16px;
     padding-left: 27px;
     padding-top: 13px;
+    color: var(--default-color);
 }
 .input-btn{
     margin-left: 250px;
