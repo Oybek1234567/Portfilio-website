@@ -276,6 +276,11 @@ hr{
     height: 399px;
     border-radius: 15px;  
     background: var(--default-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-card_one:hover{
+    transform: scale(1.1);
 }
 .card-one_img{
     padding:46px 143px;
@@ -296,6 +301,11 @@ hr{
     height: 399px;
     border-radius: 15px;
     background: var(--default-color);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-card_two:hover{
+    transform: scale(1.1);
 }
 .card-two_img{
     padding: 46px 143px;
@@ -316,6 +326,11 @@ hr{
     height: 399px;
     border-radius: 15px;
     background: var(--default-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.section-card_three:hover{
+    transform: scale(1.1);
 }
 .card-three_img{
     padding:46px 143px;
@@ -547,26 +562,32 @@ hr{
     border-radius: 10px;
     margin-left: 151px;
     margin-top: 94px;
+    cursor: pointer;   
 }
 .img-four{
     margin-top: -203px;
     margin-left: 290px;
+    transition: 0.5s;
 }
 .img-five{
     margin-left: -575px;
     margin-top: 10px;
+    transition: 0.5s;
 }
 .img-six{
     margin-left: -285px;
     margin-top: -202px;
+    transition: 0.5s;
 }
 .img-seven{
     margin-left: 4px;
     margin-top: -202px;
+    transition: 0.5s;
 }
 .img-eight{
     margin-left: 292px;
     margin-top: -203px;
+    transition: 0.5s;
 }
 .section-five{
     background: var(--background-one);
