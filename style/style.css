@@ -374,21 +374,23 @@ span {
 .section_contents {
     margin-top: 150px;
 }
-.content-one {
+.content-one{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 .content-one_title {
+    position: absolute;
     color: var(--default-color);
     font-size: 22px;
-    padding-left: -500px;
+    padding-left: 200px;
+    /* padding-top: 50px; */
 }
 .cross-one {
     width: 835px;
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 150px;
+    margin-left: 330px;
 }
 .degree {
     width: 80%;
@@ -405,20 +407,21 @@ span {
 }
 .content-two {
     display: flex;
-    margin-left: -400px;
+    margin-left: 100px;
     margin-top: 41px;
 }
 .content-two-title {
+    position: absolute;
     color: var(--default-color);
     font-size: 22px;
-    padding-left: -500px;
+    padding-left: 100px;
 }
 .cross-two {
     width: 835px;
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 170px;
+    margin-left: 230px;
 }
 .degree-two {
     width: 75%;
@@ -435,20 +438,21 @@ span {
 }
 .content-three {
     display: flex;
-    margin-left: -400px;
+    margin-left: 90px;
     margin-top: 41px;
 }
 .content-three-title {
+    position: absolute;
     color: var(--default-color);
     font-size: 22px;
-    padding-left: -500px;
+    padding-left: 110px;
 }
 .cross-three {
     width: 835px;
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 135px;
+    margin-left: 245px;
 }
 .degree-three {
     width: 60%;
@@ -465,20 +469,20 @@ span {
 }
 .content-four {
     display: flex;
-    margin-left: -400px;
     margin-top: 41px;
 }
 .content-four-title {
+    position: absolute;
     color: var(--default-color);
     font-size: 22px;
-    padding-left: -500px;
+    padding-left: 200px;
 }
 .cross-four {
     width: 835px;
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 135px;
+    margin-left: 335px;
 }
 .degree-four {
     width: 50%;
@@ -492,14 +496,15 @@ span {
     font-size: 22px;
     padding-left: 34px;
     margin-top: -5px;
+
 }
 .content-five {
     display: flex;
-    margin-left: -270px;
     margin-top: 41px;
 }
 .content-five-title {
-    transform: translateX(-130px);
+    position: absolute;
+    transform: translateX(200px);
     color: var(--default-color);
     font-size: 22px;
 }
@@ -508,7 +513,7 @@ span {
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 60px;
+    margin-left: 340px;
 }
 .degree-five {
     width: 75%;
@@ -525,11 +530,10 @@ span {
 }
 .content-six {
     display: flex;
-    margin-left: -270px;
     margin-top: 41px;
 }
 .content-six-title {
-    transform: translateX(-130px);
+    transform: translateX(200px);
     color: var(--default-color);
     font-size: 22px;
     padding-left: -500px;
@@ -539,7 +543,7 @@ span {
     height: 20px;
     border-radius: 20px;
     background: var(--input-color);
-    margin-left: 65px;
+    margin-left: 295px;
 }
 .degree-six {
     width: 60%;
