@@ -1,0 +1,10 @@
+@media (max-width: 768px){
+    .section-two_title{
+        align-self: center;
+    }
+    .section-cards{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
